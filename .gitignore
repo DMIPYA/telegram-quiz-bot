@@ -3,6 +3,11 @@
 .env
 .env.local
 .env.*
+!.env.example
 *.key
 *.pem
 secrets/
+
+# Python
+__pycache__/
+*.py[cod]
